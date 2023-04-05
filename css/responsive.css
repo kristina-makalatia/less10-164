@@ -1,0 +1,77 @@
+/* example#1 - ზომების შეცვლა */
+/* @media (max-width:1024px) {
+    .block {
+        width: 180px;
+        background-color: yellow;
+    }
+}
+@media (max-width:768px) {
+    .block:nth-child(4) {
+        display: none;
+    }
+    .block {
+        background-color: pink;
+    }
+}
+@media (max-width:550px) {
+    .block {
+        width: 80px;
+    }
+} */
+
+
+/* example#2 - direction */
+/* @media (max-width: 1024px) {
+    .flex-wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .block {
+        margin-bottom: 30px;
+    }
+} */
+
+/* example#3 - wrap */
+/* @media (max-width: 1024px) {
+    .block {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:500px) {
+    .flex-wraper {
+        justify-content: center;
+    }
+} */
+
+/* example#4 */
+@media (max-width:1200px) {
+    .block-item {
+        width: 48%;
+        margin-bottom: 93px;
+    }
+    .wraper-block {
+        height: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .block {
+        width: 48%;
+    }
+    .block {
+        margin-bottom: 30px;
+    }
+    .flex-block {
+        flex-direction: column-reverse;
+    }
+
+}
+@media (max-width:480px) {
+    .block {
+        width: 100%;
+    }
+    .block-item {
+        width: 100%;
+      
+    }
+}
